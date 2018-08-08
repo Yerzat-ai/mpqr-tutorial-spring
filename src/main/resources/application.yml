@@ -1,0 +1,9 @@
+com:
+  mastercard:
+    api-config:
+      debug: true
+      environment: SANDBOX_STATIC
+      consumer-key: #consumerkey-string-goes-here
+      key-alias: #keyalias
+      key-password: #keystorepassword
+      private-key: #sample-mpqr-sandbox.p12

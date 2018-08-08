@@ -1,0 +1,82 @@
+{
+  "partnerId": "ptnr_BEeCrYJHh2BXTXPy_PEtp-8DBOo",
+  "merchant_payment_transfer": {
+    "transfer_reference": "4002731033061103775624344507490434951005",
+    "payment_type": "P2M",
+    "funding_source": "DEBIT",
+    "transaction_local_date_time": "2016-09-22T13:22:11-1730",
+    "amount": "44",
+    "currency": "USD",
+    "sender_account_uri": "pan:5509670000000187;exp=2099-08;cvc=123",
+    "sender": {
+      "first_name": "John",
+      "middle_name": "Tyler",
+      "last_name": "Jones",
+      "date_of_birth": "1994-05-21",
+      "address": {
+        "line1": "21 Broadway",
+        "line2": "Apartment A-6",
+        "city": "OFallon",
+        "country_subdivision": "MO",
+        "postal_code": "63368",
+        "country": "USA"
+      },
+      "phone": "11234565555",
+      "email": "John.Jones123@abcmail.com"
+    },
+    "recipient_account_uri": "pan:5509670000000187;exp=2099-08;cvc=123",
+    "recipient": {
+      "first_name": "Jane",
+      "middle_name": "Tyler",
+      "last_name": "Smith",
+      "merchant_category_code": "3005",
+      "address": {
+        "line1": "1 Main St",
+        "line2": "Apartment 9",
+        "city": "OFallon",
+        "country_subdivision": "MO",
+        "postal_code": "63368",
+        "country": "USA"
+      },
+      "phone": "11234567890",
+      "email": "Jane.Smith123@abcmail.com"
+    },
+    "payment_origination_country": "USA",
+    "reconciliation_data": {
+      "custom_field": [
+        {
+          "name": "ABC",
+          "value": "123"
+        },
+        {
+          "name": "DEF",
+          "value": "456"
+        },
+        {
+          "name": "GHI",
+          "value": "789"
+        }
+      ]
+    },
+    "funding_transaction_reference": {
+      "reference_number": "trn_12345678",
+      "network": "MONEYSEND"
+    },
+    "participant": {
+      "card_acceptor_id": "CardAcceptor1",
+      "card_acceptor_name": "TESTBANK"
+    },
+    "device_id": "DEVICE-1234",
+    "location": "state:MO",
+    "channel": "KIOSK",
+    "participation_id": "TERMINAL34728",
+    "additional_message": "mymessage",
+    "mastercard_assigned_id": "123456",
+    "token_cryptogram": {
+      "type": "CONTACTLESS_CHIP",
+      "value": "jjoutwsdgfdou124354ljlsdhgout968957",
+      "pan_sequence_number": "011"
+    },
+    "authentication_value": "ucaf:jJJLtQa+Iws8AREAEbjsA1MAAAA"
+  }
+}

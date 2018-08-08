@@ -1,0 +1,9 @@
+com:
+  mastercard:
+    api-config:
+      debug: false
+      environment: SANDBOX_STATIC
+      consumer-key: 4a81cyaoGWmUu2doHxYbJ4fqHXvKuqM-usdKMG-t4eb8338d!e374554cdf724da784115a5f32bde8030000000000000000
+      key-alias: keyalias
+      key-password: keystorepassword
+      private-key: /Users/e050909/Downloads/Tutorial-1520970481-sandbox.p12

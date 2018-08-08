@@ -1,0 +1,62 @@
+{
+  "partnerId": "ptnr_BEeCrYJHh2BXTXPy_PEtp-8DBOo",
+  "merchant_transfer": {
+    "transfer_reference": "400230517077183589418977281159883110675",
+    "payment_type": "P2M",
+    "transfer_amount": {
+      "value": "18",
+      "currency": "USD"
+    },
+    "payment_origination_country": "USA",
+    "sender_account_uri": "pan:5184680430000006;exp=2018-08;cvc=123",
+    "transaction_local_date_time": "2017-09-10T10:22:11-05:30",
+    "sender": {
+      "first_name": "John~Tiger",
+      "middle_name": "T",
+      "last_name": "Jones",
+      "address": {
+        "line1": "1 Main St",
+        "line2": "Apartment 9",
+        "city": "OFallon",
+        "country_subdivision": "MO",
+        "postal_code": "63368",
+        "country": "USA"
+      },
+      "phone": "21234567891",
+      "email": "Jane.Sender123@abcmail.com",
+      "token_cryptogram": {
+        "type": "CONTACTLESS_CHIP",
+        "value": "hjjoutwsdgfdou124354ljlsdhgout96895"
+      },
+      "authentication_value": "ucaf:jJJLtQa+Iws8AREAEbjsA1MAAAB"
+    },
+    "recipient_account_uri": "pan:5184680430000014;exp=2020-08;cvc=123",
+    "recipient": {
+      "merchant_category_code": "3000",
+      "first_name": "Jane",
+      "middle_name": "T",
+      "last_name": "Smith",
+      "address": {
+        "line1": "1 Main St",
+        "line2": "Apartment 9",
+        "city": "OFallon",
+        "country_subdivision": "MO",
+        "postal_code": "63368",
+        "country": "USA"
+      },
+      "phone": "11234567890",
+      "email": "Jane.Smith123@abcmail.com",
+      "token_cryptogram": {
+        "type": "CONTACTLESS_CHIP",
+        "value": "hjjoutwsdgfdou124354ljlsdhgout96896"
+      },
+      "authentication_value": "ucaf:jJJLtQa+Iws8AREAEbjsA1MAAAb"
+    },
+    "participant": {
+      "card_acceptor_name": "WELLS FARGO BANK NA"
+    },
+    "participation_id": "TERMINAL34728",
+    "additional_message": "myadditionalmessage",
+    "mastercard_assigned_id": "101010"
+  }
+}
