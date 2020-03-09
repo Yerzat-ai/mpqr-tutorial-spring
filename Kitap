@@ -1,0 +1,15 @@
+com:
+  mastercard:
+    api-config:
+      debug: true
+      environment: SANDBOX_STATIC
+      consumer-key: #consumerkey-string-goes-here
+      key-alias: keyalias
+      key-password: keystorepassword
+      private-key: #sample-mpqr-sandbox.p12
+      #To run tests, execute:
+./mvnw test
+#To build and start demo project execute:
+./mvnw spring-boot:run -Drun.jvmArguments="-Dspring.profiles.active=jev"  
+#Or you can use: nohup ./mvnw spring-boot:run -Drun.jvmArguments="-Dspring.profiles.active=jev"  
+# If you are using nohup, to check logs, use: tail –f nohup.out
